@@ -1,0 +1,71 @@
+<html>
+
+<body>
+
+<table border = "1" cellpadding = "5" cellspacing = "5">
+    <td>Dates</td>
+    <td>Cumulated Values</td>
+    <td>Actual Values</td>
+    {% for i in data%}
+    
+    <tr>
+        <td>{{i.Dates}}</td>
+        <td>{{i.CumulatedValues}}</td>
+        <td>{{i.ActualValues}}</td>
+    </tr>
+
+    {% endfor %}
+</table>
+
+</body> 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <table border = "1" cellpadding = "5" cellspacing = "5">
+    <td>Dates</td>
+    <td>Cumulated Values</td>
+    <td>Actual Values</td>
+    {% for i in data %}
+        <tr>
+            <td>{{i.Dates}}</td>
+            <td>{{i.CumulatedValues}}</td>
+            <td>{{i.ActualValues}}</td>
+        </tr>
+        
+
+    {% endfor %}
+
+</table> -->
